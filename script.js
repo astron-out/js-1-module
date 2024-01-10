@@ -119,54 +119,54 @@
 
 const day = "monday";
 
-// switch (day) {
-//   case "monday":
-//     console.log("English practice");
-//     console.log("Coding course");
-//     break;
-//   case "tuesday":
-//     console.log("Cleaning house");
-//     console.log("Coding practice");
-//     break;
-//   case "wednesday":
-//   case "thursday":
-//     console.log("English course");
-//     console.log("Starting new coding project");
-//     break;
-//   case "friday":
-//     console.log("Record videos");
-//     break;
-//   case "saturday":
-//   case "sunday":
-//     console.log("Playing video games");
-//     console.log("Enjoying the weekends");
-//     break;
-//   default:
-//     console.log("Not a valid day!");
-// }
+switch (day) {
+  case "monday":
+    console.log("English practice");
+    console.log("Coding course");
+    break;
+  case "tuesday":
+    console.log("Cleaning house");
+    console.log("Coding practice");
+    break;
+  case "wednesday":
+  case "thursday":
+    console.log("English course");
+    console.log("Starting new coding project");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Playing video games");
+    console.log("Enjoying the weekends");
+    break;
+  default:
+    console.log("Not a valid day!");
+}
 
 // Same code as IF_ELSE statement
 
-if (day === "monday") {
-  console.log("English practice");
-  console.log("Coding course");
-} else if (day === "tuesday") {
-  console.log("Cleaning house");
-  console.log("Coding practice");
-} else if (day === "wednesday") {
-  console.log("English course");
-  console.log("Starting new coding project");
-} else if (day === "thursday") {
-  console.log("English course");
-  console.log("Starting new coding project");
-} else if (day === "friday") {
-  console.log("Record videos");
-} else if (day === "saturday") {
-  console.log("Cleaning house");
-  console.log("Coding practice");
-} else if (day === "sunday") {
-  console.log("Playing video games");
-  console.log("Enjoying the weekends");
-} else {
-  console.log("Not a valid day!");
-}
+// if (day === "monday") {
+//   console.log("English practice");
+//   console.log("Coding course");
+// } else if (day === "tuesday") {
+//   console.log("Cleaning house");
+//   console.log("Coding practice");
+// } else if (day === "wednesday") {
+//   console.log("English course");
+//   console.log("Starting new coding project");
+// } else if (day === "thursday") {
+//   console.log("English course");
+//   console.log("Starting new coding project");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday") {
+//   console.log("Cleaning house");
+//   console.log("Coding practice");
+// } else if (day === "sunday") {
+//   console.log("Playing video games");
+//   console.log("Enjoying the weekends");
+// } else {
+//   console.log("Not a valid day!");
+// }
