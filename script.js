@@ -89,32 +89,84 @@
 
 // Calculation and Comparison avarage score of 2 teams
 
-const teamDolphine = (96 + 108 + 89) / 3;
-const teamKoalas = (88 + 91 + 110) / 3;
-const sameResult = teamDolphine === teamKoalas;
+// const teamDolphine = (96 + 108 + 89) / 3;
+// const teamKoalas = (88 + 91 + 110) / 3;
+// const sameResult = teamDolphine === teamKoalas;
 
-if (teamDolphine > teamKoalas && teamDolphine >= 100) {
-  console.log(`Team Dolphine wins this compation with score ${teamDolphine}`);
-} else if (teamDolphine > teamKoalas && teamDolphine < 100 && !sameResult) {
-  console.log(
-    `Both teams can't reach required score! But team Dolphine has greater result than team Kolalas (${teamDolphine})`
-  );
-} else if (teamDolphine < teamKoalas && teamKoalas < 100 && !sameResult) {
-  console.log(
-    `Both teams can't reach required score! But team Dolphine has greater result than team Kolalas (${teamDolphine})`
-  );
-} else if (teamKoalas > teamDolphine && teamKoalas >= 100) {
-  console.log(`Team Koalas wins this compation with score ${teamKoalas}`);
-} else if (sameResult < 100) {
-  console.log(
-    `Both teams can't reach required score but they have same results!`
-  );
+// if (teamDolphine > teamKoalas && teamDolphine >= 100) {
+//   console.log(`Team Dolphine wins this compation with score ${teamDolphine}`);
+// } else if (teamDolphine > teamKoalas && teamDolphine < 100 && !sameResult) {
+//   console.log(
+//     `Both teams can't reach required score! But team Dolphine has greater result than team Kolalas (${teamDolphine})`
+//   );
+// } else if (teamDolphine < teamKoalas && teamKoalas < 100 && !sameResult) {
+//   console.log(
+//     `Both teams can't reach required score! But team Dolphine has greater result than team Kolalas (${teamDolphine})`
+//   );
+// } else if (teamKoalas > teamDolphine && teamKoalas >= 100) {
+//   console.log(`Team Koalas wins this compation with score ${teamKoalas}`);
+// } else if (sameResult < 100) {
+//   console.log(
+//     `Both teams can't reach required score but they have same results!`
+//   );
+// } else {
+//   console.log(
+//     `Both teams reached the same result, each reached ${
+//       (teamDolphine, teamKoalas)
+//     }`
+//   );
+// }
+
+const day = "monday";
+
+// switch (day) {
+//   case "monday":
+//     console.log("English practice");
+//     console.log("Coding course");
+//     break;
+//   case "tuesday":
+//     console.log("Cleaning house");
+//     console.log("Coding practice");
+//     break;
+//   case "wednesday":
+//   case "thursday":
+//     console.log("English course");
+//     console.log("Starting new coding project");
+//     break;
+//   case "friday":
+//     console.log("Record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("Playing video games");
+//     console.log("Enjoying the weekends");
+//     break;
+//   default:
+//     console.log("Not a valid day!");
+// }
+
+// Same code as IF_ELSE statement
+
+if (day === "monday") {
+  console.log("English practice");
+  console.log("Coding course");
+} else if (day === "tuesday") {
+  console.log("Cleaning house");
+  console.log("Coding practice");
+} else if (day === "wednesday") {
+  console.log("English course");
+  console.log("Starting new coding project");
+} else if (day === "thursday") {
+  console.log("English course");
+  console.log("Starting new coding project");
+} else if (day === "friday") {
+  console.log("Record videos");
+} else if (day === "saturday") {
+  console.log("Cleaning house");
+  console.log("Coding practice");
+} else if (day === "sunday") {
+  console.log("Playing video games");
+  console.log("Enjoying the weekends");
 } else {
-  console.log(
-    `Both teams reached the same result, each reached ${
-      (teamDolphine, teamKoalas)
-    }`
-  );
+  console.log("Not a valid day!");
 }
-
-//
