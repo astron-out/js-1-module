@@ -117,7 +117,7 @@
 //   );
 // }
 
-const day = "monday";
+// const day = "monday";
 
 // switch (day) {
 //   case "monday":
@@ -147,26 +147,42 @@ const day = "monday";
 
 // Same code as IF_ELSE statement
 
-if (day === "monday") {
-  console.log("English practice");
-  console.log("Coding course");
-} else if (day === "tuesday") {
-  console.log("Cleaning house");
-  console.log("Coding practice");
-} else if (day === "wednesday") {
-  console.log("English course");
-  console.log("Starting new coding project");
-} else if (day === "thursday") {
-  console.log("English course");
-  console.log("Starting new coding project");
-} else if (day === "friday") {
-  console.log("Record videos");
-} else if (day === "saturday") {
-  console.log("Cleaning house");
-  console.log("Coding practice");
-} else if (day === "sunday") {
-  console.log("Playing video games");
-  console.log("Enjoying the weekends");
-} else {
-  console.log("Not a valid day!");
-}
+// if (day === "monday") {
+//   console.log("English practice");
+//   console.log("Coding course");
+// } else if (day === "tuesday") {
+//   console.log("Cleaning house");
+//   console.log("Coding practice");
+// } else if (day === "wednesday") {
+//   console.log("English course");
+//   console.log("Starting new coding project");
+// } else if (day === "thursday") {
+//   console.log("English course");
+//   console.log("Starting new coding project");
+// } else if (day === "friday") {
+//   console.log("Record videos");
+// } else if (day === "saturday") {
+//   console.log("Cleaning house");
+//   console.log("Coding practice");
+// } else if (day === "sunday") {
+//   console.log("Playing video games");
+//   console.log("Enjoying the weekends");
+// } else {
+//   console.log("Not a valid day!");
+// }
+
+// Coding challenge #4
+const billValue = 275;
+const tip =
+  billValue < 50 || billValue >= 300
+    ? (billValue / 100) * 20
+    : (billValue / 100) * 15;
+const totalValue = tip + billValue;
+
+billValue < 50 || billValue >= 300
+  ? console.log(
+      `The bill was ${billValue}, the tip was ${tip} and the total was ${totalValue}`
+    )
+  : console.log(
+      `The bill was ${billValue}, the tip was ${tip} and the total was ${totalValue}`
+    );
